@@ -1,4 +1,2 @@
-USB_LiPolyCharger_SingleCell
-============================
-
-USB LiPoly Charger - Single Cell
+Power_Cell_Lipo_Charger_Booster
+===============================
