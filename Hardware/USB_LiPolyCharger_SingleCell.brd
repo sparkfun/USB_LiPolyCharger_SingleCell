@@ -27,7 +27,7 @@
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
@@ -56,7 +56,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -1291,18 +1291,18 @@ design rules under a new name.</description>
 <signal name="PROG">
 <contactref element="SJ1" pad="2"/>
 <wire x1="9.144" y1="36.449" x2="9.144" y2="32.9184" width="0.508" layer="1"/>
-<wire x1="9.144" y1="32.9184" x2="9.6012" y2="32.4612" width="0.508" layer="1"/>
+<wire x1="9.144" y1="32.9184" x2="9.2202" y2="32.8422" width="0.508" layer="1"/>
 <contactref element="U1" pad="5"/>
+<wire x1="9.2202" y1="32.8422" x2="9.6012" y2="32.4612" width="0.508" layer="1"/>
 <wire x1="12.954" y1="20.4161" x2="13.02" y2="20.3501" width="0.508" layer="1"/>
 <wire x1="12.954" y1="20.4161" x2="12.954" y2="21.59" width="0.508" layer="1"/>
 <wire x1="12.954" y1="21.59" x2="12.954" y2="29.1084" width="0.508" layer="1"/>
-<wire x1="12.954" y1="29.1084" x2="9.2202" y2="32.8422" width="0.508" layer="1"/>
+<wire x1="12.954" y1="29.1084" x2="9.6012" y2="32.4612" width="0.508" layer="1"/>
 <contactref element="PROG" pad="P$2"/>
 <wire x1="7.747" y1="18.0594" x2="7.8994" y2="18.0594" width="0.508" layer="16"/>
 <wire x1="7.8994" y1="18.0594" x2="11.43" y2="21.59" width="0.508" layer="16"/>
 <via x="11.43" y="21.59" extent="1-16" drill="0.6"/>
 <wire x1="11.43" y1="21.59" x2="12.954" y2="21.59" width="0.508" layer="1"/>
-<wire x1="9.2202" y1="32.8422" x2="9.144" y2="32.9184" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="SJ1" pad="3"/>
